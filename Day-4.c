@@ -1,35 +1,34 @@
 #include<stdio.h>
-#include<stdlib.h>
-
-int max(int a,int b,int c,int d)
+int max(int t,int o,int n,int y)
 {
-int maxi = a;
-if (b>maxi) 
+int tony=t;
+if (o>tony) 
 {
-maxi=b;
+tony=o;
 }
-if (c>maxi)
+if (n>tony)
 {
-maxi=c;
+tony=n;
 }
-if (d>maxi)
+if (y>tony)
 {
-maxi=d;
+tony=y;
 }
-return maxi;
+return tony;
 }
 int main()
 {
-int a;
-int b;
-int c;
-int d;
+int t;
+int o;
+int n;
+int y;
 int op;
-scanf("%d",&a);
-scanf("%d",&b);
-scanf("%d",&c);
-scanf("%d",&d);
-op=max(a,b,c,d);
+scanf("%d",&t);
+scanf("%d",&o);
+scanf("%d",&n);
+scanf("%d",&y);
+op=max(t,o,n,y);
 printf("%d\n",op);
 return 0;
 }
+
