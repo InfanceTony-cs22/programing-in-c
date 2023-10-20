@@ -30,5 +30,6 @@ scanf("%d",&y);
 op=max(t,o,n,y);
 printf("%d\n",op);
 return 0;
+
 }
 
